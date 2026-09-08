@@ -1,4 +1,4 @@
-#Tue Sep 08 11:45:25 GMT-05:00 2026
+#Tue Sep 08 12:08:50 GMT-05:00 2026
 base.0=/home/chizu/AndroidStudioProjects/HelloWorldCompose/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/chizu/AndroidStudioProjects/HelloWorldCompose/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/chizu/AndroidStudioProjects/HelloWorldCompose/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex

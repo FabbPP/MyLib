@@ -1,20 +1,20 @@
 package com.example.helloworldcompose.ui
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material3.Button
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.FilterChip
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -47,66 +47,26 @@ fun HistoryScreen(
     val dateFormat = remember { SimpleDateFormat("d MMM", Locale.getDefault()) }
 
     LazyColumn(
-        modifier = Modifier.fillMaxWidth(),
-        contentPadding = PaddingValues(24.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp),
+        contentPadding = PaddingValues(top = 16.dp, bottom = 96.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         item {
-            Column {
-                Text(
-                    text = "Registros",
-                    style = MaterialTheme.typography.headlineMedium,
-                    fontWeight = FontWeight.Bold
-                )
-                Text(
-                    text = "${allBooks.size} ${if (allBooks.size == 1) "libro" else "libros"} registrados",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
+            HistoryHeader(count = allBooks.size)
         }
 
         item {
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                FilterChip(
-                    selected = filter == "all",
-                    onClick = { filter = "all" },
-                    label = { Text("Todos") }
-                )
-                FilterChip(
-                    selected = filter == "completed",
-                    onClick = { filter = "completed" },
-                    label = { Text("Completados") }
-                )
-            }
+            FilterChipsRow(selected = filter, onSelect = { filter = it })
         }
 
         if (filtered.isEmpty()) {
             item {
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.surfaceVariant
-                    )
-                ) {
-                    Column(
-                        modifier = Modifier.padding(24.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        Text(
-                            text = if (filter == "completed")
-                                "Todavía no hay libros completados"
-                            else
-                                "No hay registros todavía",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.SemiBold
-                        )
-                        Spacer(Modifier.height(16.dp))
-                        Button(onClick = onAddBook) {
-                            Text("Agregar nuevo libro")
-                        }
-                    }
-                }
+                EmptyHistoryCard(
+                    completed = filter == "completed",
+                    onAddBook = onAddBook
+                )
             }
         }
 
@@ -114,28 +74,148 @@ fun HistoryScreen(
             HistoryRow(book = book, dateFormat = dateFormat)
         }
 
-        item { Spacer(Modifier.height(80.dp)) }
+        item {
+            XAddBookButton(onClick = onAddBook)
+        }
+    }
+}
+
+@Composable
+private fun HistoryHeader(count: Int) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(bottom = 4.dp),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(
+            text = "Registros anteriores",
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.onSurface
+        )
+        Text(
+            text = "$count ${if (count == 1) "libro leído" else "libros leídos"}",
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.Medium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+    }
+}
+
+@Composable
+private fun FilterChipsRow(selected: String, onSelect: (String) -> Unit) {
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        FilterChip(
+            label = "Todos",
+            selected = selected == "all",
+            onClick = { onSelect("all") }
+        )
+        FilterChip(
+            label = "Completados",
+            selected = selected == "completed",
+            onClick = { onSelect("completed") }
+        )
+    }
+}
+
+@Composable
+private fun FilterChip(label: String, selected: Boolean, onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        shape = RoundedCornerShape(50),
+        color = if (selected)
+            MaterialTheme.colorScheme.primary
+        else
+            MaterialTheme.colorScheme.surfaceContainer
+    ) {
+        Text(
+            text = label,
+            modifier = Modifier.padding(horizontal = 14.dp, vertical = 7.dp),
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.SemiBold,
+            color = if (selected)
+                MaterialTheme.colorScheme.onPrimary
+            else
+                MaterialTheme.colorScheme.onSurfaceVariant
+        )
+    }
+}
+
+@Composable
+private fun EmptyHistoryCard(completed: Boolean, onAddBook: () -> Unit) {
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        color = MaterialTheme.colorScheme.surfaceContainerLowest,
+        shadowElevation = 1.dp
+    ) {
+        Column(
+            modifier = Modifier.padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = if (completed) "Todavía no hay libros completados" else "No hay registros todavía",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold
+            )
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = "Agrega un libro para empezar a registrar tu historial.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+    }
+}
+
+@Composable
+private fun XAddBookButton(onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(12.dp),
+        color = MaterialTheme.colorScheme.primary
+    ) {
+        Row(
+            modifier = Modifier.padding(vertical = 14.dp),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Box(Modifier.padding(horizontal = 6.dp)) {
+                Text(
+                    text = "+",
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onPrimary
+                )
+            }
+            Text(
+                text = "Agregar nuevo libro",
+                style = MaterialTheme.typography.labelLarge,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.onPrimary
+            )
+        }
     }
 }
 
 @Composable
 private fun HistoryRow(book: Book, dateFormat: SimpleDateFormat) {
-    Card(
+    Surface(
         modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
+        shape = RoundedCornerShape(16.dp),
+        color = MaterialTheme.colorScheme.surfaceContainerLowest,
+        shadowElevation = 1.dp
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(16.dp),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            horizontalArrangement = Arrangement.spacedBy(14.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            BookCoverPlaceholder(title = book.title)
-
+            BookCover(title = book.title)
             Column(Modifier.weight(1f)) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
@@ -152,7 +232,7 @@ private fun HistoryRow(book: Book, dateFormat: SimpleDateFormat) {
                         Text(
                             text = "Completado",
                             style = MaterialTheme.typography.labelSmall,
-                            color = MaterialTheme.colorScheme.tertiary,
+                            color = MaterialTheme.colorScheme.onTertiaryContainer,
                             fontWeight = FontWeight.SemiBold
                         )
                     } else {
@@ -166,16 +246,37 @@ private fun HistoryRow(book: Book, dateFormat: SimpleDateFormat) {
                 }
                 Text(
                     text = book.author,
-                    style = MaterialTheme.typography.bodyMedium,
+                    style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 Spacer(Modifier.height(4.dp))
-                Text(
-                    text = "Páginas: ${book.totalPages}   •   " +
-                        dateFormat.format(Date(book.createdAt)),
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    Surface(
+                        shape = RoundedCornerShape(50),
+                        color = MaterialTheme.colorScheme.surfaceContainer
+                    ) {
+                        Text(
+                            text = "Páginas: ${book.totalPages}",
+                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp),
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            fontWeight = FontWeight.Medium
+                        )
+                    }
+                    Text(
+                        text = "•",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Text(
+                        text = dateFormat.format(Date(book.createdAt)),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
         }
     }
