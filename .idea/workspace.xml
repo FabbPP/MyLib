@@ -168,4 +168,15 @@
     </task>
     <servers />
   </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.helloworldcompose.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1788885754150" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>
