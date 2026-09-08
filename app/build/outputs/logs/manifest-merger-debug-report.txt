@@ -4,14 +4,15 @@ ADDED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/Andr
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/chizu/.gradle/caches/9.5.0/transforms/63817d021c74b7ea249c90f405150a8c/transformed/material3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/f5d3ca579079426e3d14f12a12758dee/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/fedfa4f38b5b417e463e9eec823618c2/transformed/animation/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/844bc5f39e3c768fb7dd8310db466786/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/b9823f0a5bac441bf6b4afe681868962/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-unit-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/6515aa7992b79a63b4d0be1e1b56d08c/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-geometry-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/a304dfd00b9a62efcecee0cb5ded48b6/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-util-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/8a26cf8398ce1632b2c5e2113f7ba52b/transformed/ui-util/AndroidManifest.xml:2:1-7:12
@@ -19,10 +20,7 @@ MERGED from [androidx.compose.ui:ui-text-android:1.10.4] /home/chizu/.gradle/cac
 MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/a2e1ec8b5e409a159b952274135993fd/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/8c67f5572b5352dc5f19fa35ff1356bb/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/836b83a3c1df4d592abe8f0f2df1d049/transformed/ui/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/924037b1825848c3893335c64dcdaaba/transformed/ui-text-google-fonts-1.10.4/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.autofill:autofill:1.0.0] /home/chizu/.gradle/caches/9.5.0/transforms/103c7c786e649c4e12ad72ddb27f4f7c/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.6.0] /home/chizu/.gradle/caches/9.5.0/transforms/ade9fc25e0ea28db210b9c3b3628988d/transformed/transition-1.6.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-core-android:1.5.0] /home/chizu/.gradle/caches/9.5.0/transforms/64ff3a529ebe0985ed422debc882dc6e/transformed/window-core/AndroidManifest.xml:2:1-7:12
@@ -77,8 +75,6 @@ MERGED from [androidx.print:print:1.0.0] /home/chizu/.gradle/caches/9.5.0/transf
 application
 ADDED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml:5:5-25:19
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml:5:5-25:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.window:window:1.5.0] /home/chizu/.gradle/caches/9.5.0/transforms/f45e69d4e8d4c583ad8b7cdabc196339/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.5.0] /home/chizu/.gradle/caches/9.5.0/transforms/f45e69d4e8d4c583ad8b7cdabc196339/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/chizu/.gradle/caches/9.5.0/transforms/e78d0ec50e4e40beace9beea2df61dd4/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
@@ -139,22 +135,24 @@ uses-sdk
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml
 INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/chizu/.gradle/caches/9.5.0/transforms/63817d021c74b7ea249c90f405150a8c/transformed/material3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.4.0] /home/chizu/.gradle/caches/9.5.0/transforms/63817d021c74b7ea249c90f405150a8c/transformed/material3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/f5d3ca579079426e3d14f12a12758dee/transformed/material-ripple/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/f5d3ca579079426e3d14f12a12758dee/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/fedfa4f38b5b417e463e9eec823618c2/transformed/animation/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/fedfa4f38b5b417e463e9eec823618c2/transformed/animation/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/844bc5f39e3c768fb7dd8310db466786/transformed/foundation-layout/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/844bc5f39e3c768fb7dd8310db466786/transformed/foundation-layout/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/b9823f0a5bac441bf6b4afe681868962/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/b9823f0a5bac441bf6b4afe681868962/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/e98f83f2c228de6aa65214e8a02f9376/transformed/animation-core/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-unit-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/6515aa7992b79a63b4d0be1e1b56d08c/transformed/ui-unit/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-unit-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/6515aa7992b79a63b4d0be1e1b56d08c/transformed/ui-unit/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-geometry-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/a304dfd00b9a62efcecee0cb5ded48b6/transformed/ui-geometry/AndroidManifest.xml:5:5-44
@@ -169,14 +167,8 @@ MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] /home/chizu/.gradle
 MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/8c67f5572b5352dc5f19fa35ff1356bb/transformed/ui-graphics/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/836b83a3c1df4d592abe8f0f2df1d049/transformed/ui/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/836b83a3c1df4d592abe8f0f2df1d049/transformed/ui/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/43559b803d62e755ee7ce3b93b4ca724/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/e4d4a847763877f28d2666e49b9935dd/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] /home/chizu/.gradle/caches/9.5.0/transforms/b8c9c307aa6ea697db914f6235a174e8/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/924037b1825848c3893335c64dcdaaba/transformed/ui-text-google-fonts-1.10.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/924037b1825848c3893335c64dcdaaba/transformed/ui-text-google-fonts-1.10.4/AndroidManifest.xml:5:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] /home/chizu/.gradle/caches/9.5.0/transforms/103c7c786e649c4e12ad72ddb27f4f7c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.0.0] /home/chizu/.gradle/caches/9.5.0/transforms/103c7c786e649c4e12ad72ddb27f4f7c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.6.0] /home/chizu/.gradle/caches/9.5.0/transforms/ade9fc25e0ea28db210b9c3b3628988d/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
@@ -263,12 +255,6 @@ MERGED from [androidx.print:print:1.0.0] /home/chizu/.gradle/caches/9.5.0/transf
 		INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/chizu/AndroidStudioProjects/HelloWorldCompose/app/src/main/AndroidManifest.xml
-activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] /home/chizu/.gradle/caches/9.5.0/transforms/57c7e8836f0beb7c7987f1d562afeee6/transformed/ui-tooling/AndroidManifest.xml:24:13-71
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.5.0] /home/chizu/.gradle/caches/9.5.0/transforms/f45e69d4e8d4c583ad8b7cdabc196339/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
 	android:required

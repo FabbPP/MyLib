@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/res/values-zh-rHK/values-zh-rHK.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "150,231,308"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,8996,9077",
+                        "startOffsets": "105,8911,8992",
                         "endColumns": "99,80,76",
-                        "endOffsets": "200,9072,9149"
+                        "endOffsets": "200,8987,9064"
                     }
                 },
                 {
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "84",
-                        "endOffsets": "135"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "7894",
-                        "endColumns": "84",
-                        "endOffsets": "7974"
-                    }
-                },
-                {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/2a6e108c69b0dcdc996711ab388b63db/transformed/core-1.16.0/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -64,11 +47,11 @@
                         "endOffsets": "142,241,335,429,522,615,711,812"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "297,389,488,582,676,769,862,8639",
+                        "startOffsets": "297,389,488,582,676,769,862,8554",
                         "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "384,483,577,671,764,857,953,8735"
+                        "endOffsets": "384,483,577,671,764,857,953,8650"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "192,268,342,430,521,599,673,750,828,902,975,1050,1117,1198,1271,1341,1410,1485,1550,1666"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "205,958,1034,1108,1196,1287,1365,1439,7979,8057,8131,8204,8279,8346,8427,8500,8570,8740,8815,8880",
+                        "startOffsets": "205,958,1034,1108,1196,1287,1365,1439,7894,7972,8046,8119,8194,8261,8342,8415,8485,8655,8730,8795",
                         "endColumns": "91,75,73,87,90,77,73,76,77,73,72,74,66,80,72,69,68,74,64,115",
-                        "endOffsets": "292,1029,1103,1191,1282,1360,1434,1511,8052,8126,8199,8274,8341,8422,8495,8565,8634,8810,8875,8991"
+                        "endOffsets": "292,1029,1103,1191,1282,1360,1434,1511,7967,8041,8114,8189,8256,8337,8410,8480,8549,8725,8790,8906"
                     }
                 }
             ]

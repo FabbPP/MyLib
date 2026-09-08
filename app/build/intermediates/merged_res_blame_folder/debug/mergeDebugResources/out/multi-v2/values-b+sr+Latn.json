@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/2a6e108c69b0dcdc996711ab388b63db/transformed/core-1.16.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "148,250,347,451,555,660,776,877"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "323,421,523,620,724,828,933,9809",
+                        "startOffsets": "323,421,523,620,724,828,933,9715",
                         "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "416,518,615,719,823,928,1044,9905"
+                        "endOffsets": "416,518,615,719,823,928,1044,9811"
                     }
                 },
                 {
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-b+sr+Latn/values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "93",
-                        "endOffsets": "144"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "8977",
-                        "endColumns": "93",
-                        "endOffsets": "9066"
-                    }
-                },
-                {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -64,11 +47,11 @@
                         "endOffsets": "163,253,345"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,10177,10267",
+                        "startOffsets": "105,10083,10173",
                         "endColumns": "112,89,91",
-                        "endOffsets": "213,10262,10354"
+                        "endOffsets": "213,10168,10260"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "205,302,389,486,587,673,750,841,933,1018,1098,1183,1256,1346,1423,1502,1579,1658,1728,1846"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "218,1049,1146,1233,1330,1431,1517,1594,9071,9163,9248,9328,9413,9486,9576,9653,9732,9910,9989,10059",
+                        "startOffsets": "218,1049,1146,1233,1330,1431,1517,1594,8977,9069,9154,9234,9319,9392,9482,9559,9638,9816,9895,9965",
                         "endColumns": "104,96,86,96,100,85,76,90,91,84,79,84,72,89,76,78,76,78,69,117",
-                        "endOffsets": "318,1141,1228,1325,1426,1512,1589,1680,9158,9243,9323,9408,9481,9571,9648,9727,9804,9984,10054,10172"
+                        "endOffsets": "318,1141,1228,1325,1426,1512,1589,1680,9064,9149,9229,9314,9387,9477,9554,9633,9710,9890,9960,10078"
                     }
                 }
             ]

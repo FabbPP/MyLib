@@ -43,8 +43,8 @@ class BookViewModel(application: Application) {
         storage.saveBooks(_books.toList())
     }
 
-    fun saveToTextFile(book: Book) {
-        storage.saveToTextFile(appContext, book)
+    fun saveToTextFile(title: String, author: String, totalPages: String, readPages: String, percentage: String) {
+        storage.saveToTextFile(appContext, title, author, totalPages, readPages, percentage)
     }
 
     fun readFromTextFile(): String {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-v30/values-v30.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/63817d021c74b7ea249c90f405150a8c/transformed/material3/res/values-v30/values-v30.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-sk/values-sk.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/63817d021c74b7ea249c90f405150a8c/transformed/material3/res/values-sk/values-sk.xml",
@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-sk/values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "93",
-                        "endOffsets": "144"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "8910",
-                        "endColumns": "93",
-                        "endOffsets": "8999"
-                    }
-                },
-                {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -47,11 +30,11 @@
                         "endOffsets": "165,249,336"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,10097,10181",
+                        "startOffsets": "105,10003,10087",
                         "endColumns": "114,83,86",
-                        "endOffsets": "215,10176,10263"
+                        "endOffsets": "215,10082,10169"
                     }
                 },
                 {
@@ -64,11 +47,11 @@
                         "endOffsets": "207,302,386,481,584,676,755,849,939,1020,1103,1190,1262,1352,1430,1506,1581,1659,1727,1841"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "220,1064,1159,1243,1338,1441,1533,1612,9004,9094,9175,9258,9345,9417,9507,9585,9661,9837,9915,9983",
+                        "startOffsets": "220,1064,1159,1243,1338,1441,1533,1612,8910,9000,9081,9164,9251,9323,9413,9491,9567,9743,9821,9889",
                         "endColumns": "106,94,83,94,102,91,78,93,89,80,82,86,71,89,77,75,74,77,67,113",
-                        "endOffsets": "322,1154,1238,1333,1436,1528,1607,1701,9089,9170,9253,9340,9412,9502,9580,9656,9731,9910,9978,10092"
+                        "endOffsets": "322,1154,1238,1333,1436,1528,1607,1701,8995,9076,9159,9246,9318,9408,9486,9562,9637,9816,9884,9998"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "146,248,349,447,557,665,787,888"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "327,423,525,626,724,834,942,9736",
+                        "startOffsets": "327,423,525,626,724,834,942,9642",
                         "endColumns": "95,101,100,97,109,107,121,100",
-                        "endOffsets": "418,520,621,719,829,937,1059,9832"
+                        "endOffsets": "418,520,621,719,829,937,1059,9738"
                     }
                 }
             ]

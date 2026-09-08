@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -114,7 +115,8 @@ private fun EditorialBottomBar(selected: MainTab, onSelect: (MainTab) -> Unit) {
                 Column(
                     modifier = Modifier
                         .height(54.dp)
-                        .width(72.dp),
+                        .width(72.dp)
+                        .clickable { onSelect(tab) },
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Center
                 ) {

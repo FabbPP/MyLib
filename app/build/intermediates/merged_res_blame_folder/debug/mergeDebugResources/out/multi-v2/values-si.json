@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-si/values-si.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/2a6e108c69b0dcdc996711ab388b63db/transformed/core-1.16.0/res/values-si/values-si.xml",
@@ -13,28 +13,11 @@
                         "endOffsets": "152,255,360,465,564,668,782,883"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "313,415,518,623,728,827,931,9644",
+                        "startOffsets": "313,415,518,623,728,827,931,9556",
                         "endColumns": "101,102,104,104,98,103,113,100",
-                        "endOffsets": "410,513,618,723,822,926,1040,9740"
-                    }
-                },
-                {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-si/values-si.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "87",
-                        "endOffsets": "138"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "8832",
-                        "endColumns": "87",
-                        "endOffsets": "8915"
+                        "endOffsets": "410,513,618,723,822,926,1040,9652"
                     }
                 },
                 {
@@ -64,11 +47,11 @@
                         "endOffsets": "200,289,372,471,570,652,737,828,914,994,1073,1155,1228,1312,1387,1471,1552,1633,1700,1818"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "213,1045,1134,1217,1316,1415,1497,1582,8920,9006,9086,9165,9247,9320,9404,9479,9563,9745,9826,9893",
+                        "startOffsets": "213,1045,1134,1217,1316,1415,1497,1582,8832,8918,8998,9077,9159,9232,9316,9391,9475,9657,9738,9805",
                         "endColumns": "99,88,82,98,98,81,84,90,85,79,78,81,72,83,74,83,80,80,66,117",
-                        "endOffsets": "308,1129,1212,1311,1410,1492,1577,1668,9001,9081,9160,9242,9315,9399,9474,9558,9639,9821,9888,10006"
+                        "endOffsets": "308,1129,1212,1311,1410,1492,1577,1668,8913,8993,9072,9154,9227,9311,9386,9470,9551,9733,9800,9918"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "158,248,341"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,10011,10101",
+                        "startOffsets": "105,9923,10013",
                         "endColumns": "107,89,92",
-                        "endOffsets": "208,10096,10189"
+                        "endOffsets": "208,10008,10101"
                     }
                 }
             ]

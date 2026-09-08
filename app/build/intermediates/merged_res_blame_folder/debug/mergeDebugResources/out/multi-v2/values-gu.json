@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-gu/values-gu.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/2a6e108c69b0dcdc996711ab388b63db/transformed/core-1.16.0/res/values-gu/values-gu.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "148,251,348,450,552,650,772,873"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "343,441,544,641,743,845,943,9728",
+                        "startOffsets": "343,441,544,641,743,845,943,9640",
                         "endColumns": "97,102,96,101,101,97,121,100",
-                        "endOffsets": "436,539,636,738,840,938,1060,9824"
+                        "endOffsets": "436,539,636,738,840,938,1060,9736"
                     }
                 },
                 {
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "87",
-                        "endOffsets": "138"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "8917",
-                        "endColumns": "87",
-                        "endOffsets": "9000"
-                    }
-                },
-                {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/836b83a3c1df4d592abe8f0f2df1d049/transformed/ui/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
@@ -64,11 +47,11 @@
                         "endOffsets": "215,307,389,482,581,668,754,855,942,1028,1111,1194,1269,1353,1428,1503,1578,1654,1720,1836"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "228,1065,1157,1239,1332,1431,1518,1604,9005,9092,9178,9261,9344,9419,9503,9578,9653,9829,9905,9971",
+                        "startOffsets": "228,1065,1157,1239,1332,1431,1518,1604,8917,9004,9090,9173,9256,9331,9415,9490,9565,9741,9817,9883",
                         "endColumns": "114,91,81,92,98,86,85,100,86,85,82,82,74,83,74,74,74,75,65,115",
-                        "endOffsets": "338,1152,1234,1327,1426,1513,1599,1700,9087,9173,9256,9339,9414,9498,9573,9648,9723,9900,9966,10082"
+                        "endOffsets": "338,1152,1234,1327,1426,1513,1599,1700,8999,9085,9168,9251,9326,9410,9485,9560,9635,9812,9878,9994"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "173,258,343"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,10087,10172",
+                        "startOffsets": "105,9999,10084",
                         "endColumns": "122,84,84",
-                        "endOffsets": "223,10167,10252"
+                        "endOffsets": "223,10079,10164"
                     }
                 }
             ]

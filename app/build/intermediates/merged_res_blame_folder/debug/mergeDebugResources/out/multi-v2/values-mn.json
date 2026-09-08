@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-36:/values-mn/values-mn.xml",
+            "outputFile": "com.example.helloworldcompose.app-mergeDebugResources-35:/values-mn/values-mn.xml",
             "map": [
                 {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/836b83a3c1df4d592abe8f0f2df1d049/transformed/ui/res/values-mn/values-mn.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "211,303,389,481,577,660,746,840,927,1008,1091,1174,1247,1338,1415,1495,1572,1649,1715,1832"
                     },
                     "to": {
-                        "startLines": "3,11,12,13,14,15,16,17,85,86,87,88,89,90,91,92,93,95,96,97",
+                        "startLines": "3,11,12,13,14,15,16,17,84,85,86,87,88,89,90,91,92,94,95,96",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "224,1070,1162,1248,1340,1436,1519,1605,9074,9161,9242,9325,9408,9481,9572,9649,9729,9907,9984,10050",
+                        "startOffsets": "224,1070,1162,1248,1340,1436,1519,1605,8986,9073,9154,9237,9320,9393,9484,9561,9641,9819,9896,9962",
                         "endColumns": "110,91,85,91,95,82,85,93,86,80,82,82,72,90,76,79,76,76,65,116",
-                        "endOffsets": "330,1157,1243,1335,1431,1514,1600,1694,9156,9237,9320,9403,9476,9567,9644,9724,9801,9979,10045,10162"
+                        "endOffsets": "330,1157,1243,1335,1431,1514,1600,1694,9068,9149,9232,9315,9388,9479,9556,9636,9713,9891,9957,10074"
                     }
                 },
                 {
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/home/chizu/.gradle/caches/9.5.0/transforms/bb18d7240e5a5aaa5fd55b64f48cfcb2/transformed/material/res/values-mn/values-mn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "87",
-                        "endOffsets": "138"
-                    },
-                    "to": {
-                        "startLines": "84",
-                        "startColumns": "4",
-                        "startOffsets": "8986",
-                        "endColumns": "87",
-                        "endOffsets": "9069"
-                    }
-                },
-                {
                     "source": "/home/chizu/.gradle/caches/9.5.0/transforms/4fc13eb9e5b7c5037b258e9635a69f68/transformed/foundation/res/values-mn/values-mn.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -64,11 +47,11 @@
                         "endOffsets": "169,255,344"
                     },
                     "to": {
-                        "startLines": "2,98,99",
+                        "startLines": "2,97,98",
                         "startColumns": "4,4,4",
-                        "startOffsets": "105,10167,10253",
+                        "startOffsets": "105,10079,10165",
                         "endColumns": "118,85,88",
-                        "endOffsets": "219,10248,10337"
+                        "endOffsets": "219,10160,10249"
                     }
                 },
                 {
@@ -81,11 +64,11 @@
                         "endOffsets": "148,250,351,449,554,666,785,886"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8,9,10,94",
+                        "startLines": "4,5,6,7,8,9,10,93",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "335,433,535,636,734,839,951,9806",
+                        "startOffsets": "335,433,535,636,734,839,951,9718",
                         "endColumns": "97,101,100,97,104,111,118,100",
-                        "endOffsets": "428,530,631,729,834,946,1065,9902"
+                        "endOffsets": "428,530,631,729,834,946,1065,9814"
                     }
                 }
             ]

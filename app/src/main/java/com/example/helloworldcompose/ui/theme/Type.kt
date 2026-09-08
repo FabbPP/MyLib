@@ -8,6 +8,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.helloworldcompose.R
 
+import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.text.googlefonts.Font as GoogleFontBuilder
+
 // Variable fonts: Inter for dense reading/navigation text, Manrope for titles & metrics.
 val InterFontFamily = FontFamily(
     Font(R.font.inter_variable, weight = FontWeight.Normal),
@@ -23,53 +26,68 @@ val ManropeFontFamily = FontFamily(
     Font(R.font.manrope_variable, weight = FontWeight.ExtraBold)
 )
 
+val provider = GoogleFont.Provider(
+    providerAuthority = "com.google.android.gms.fonts",
+    providerPackage = "com.google.android.gms",
+    certificates = R.array.com_google_android_gms_fonts_certs
+)
+
+val fontName = GoogleFont("Montserrat")
+
+val customFontFamily = FontFamily(
+    GoogleFontBuilder(googleFont = fontName, fontProvider = provider, weight = FontWeight.Normal),
+    GoogleFontBuilder(googleFont = fontName, fontProvider = provider, weight = FontWeight.Bold),
+    GoogleFontBuilder(googleFont = fontName, fontProvider = provider, weight = FontWeight.ExtraBold),
+    GoogleFontBuilder(googleFont = fontName, fontProvider = provider, weight = FontWeight.Black)
+)
+
 private val defaultInter = TextStyle(fontFamily = InterFontFamily)
 
 val Typography = Typography(
     displayLarge = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 36.sp,
         lineHeight = 44.sp,
         letterSpacing = (-0.32).sp
     ),
     headlineLarge = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 28.sp,
         lineHeight = 36.sp,
         letterSpacing = (-0.42).sp
     ),
     headlineMedium = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 24.sp,
         lineHeight = 32.sp,
         letterSpacing = (-0.24).sp
     ),
     headlineSmall = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 20.sp,
         lineHeight = 28.sp,
         letterSpacing = (-0.2).sp
     ),
     titleLarge = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 20.sp,
         lineHeight = 28.sp,
         letterSpacing = (-0.2).sp
     ),
     titleMedium = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 16.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.sp
     ),
     titleSmall = defaultInter.copy(
-        fontFamily = ManropeFontFamily,
+        fontFamily = customFontFamily,
         fontWeight = FontWeight.SemiBold,
         fontSize = 14.sp,
         lineHeight = 20.sp,

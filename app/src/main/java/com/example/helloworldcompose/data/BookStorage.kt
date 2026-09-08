@@ -17,9 +17,9 @@ class BookStorage(context: Context) {
         return set.mapNotNull { deserialize(it) }.sortedBy { -it.id }
     }
 
-    fun saveToTextFile(context: Context, book: Book) {
+    fun saveToTextFile(context: Context, title: String, author: String, totalPages: String, readPages: String, percentage: String) {
         context.openFileOutput(FILENAME, Context.MODE_PRIVATE).use { fos ->
-            fos.write("Título: ${book.title} | Autor: ${book.author} | Páginas: ${book.totalPages} | Leídas: ${book.currentPage} | Avance: ${book.progressPercent}%".toByteArray())
+            fos.write("Título: $title | Autor: $author | Páginas totales: $totalPages | Leídas: $readPages | Avance: $percentage%".toByteArray())
         }
         Log.d(TAG, "Registro guardado en $FILENAME")
     }
