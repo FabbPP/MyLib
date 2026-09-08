@@ -1,5 +1,6 @@
 com.example.helloworldcompose
 color black
+color ic_launcher_background
 color purple_200
 color purple_500
 color purple_700
@@ -9,6 +10,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 style Theme_HelloWorldCompose
